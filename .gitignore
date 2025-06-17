@@ -1,0 +1,25 @@
+
+---
+
+### ⚙️ `.gitignore`
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# DVC
+*.dvc
+.dvc/
+dvc_storage/
+
+# Environment
+.env
+.venv/
+
+# Data
+data/
